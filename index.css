@@ -1,0 +1,84 @@
+
+
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background-color:#ccc;
+}
+
+h1 {
+  color: #440b2c;
+  font-style: Arial;
+  
+}
+
+form {
+  width: 400px;
+  margin: 0 auto;
+  padding: 40px;
+  border: 1px solid #d3aaaa;
+  border-radius: 5px;
+  background-color: #f198c2;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+/* Estilos para el botón de Registrar */
+.btn-registrar {
+  background-color: #0eb332;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* Estilos para el botón de Cancelar Registro */
+.btn-cancelar {
+  background-color: #FF0000;
+  color: white;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.tipoSangre{
+  margin: 4px;
+}
+
+.alert-success {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+
+.alert-danger{
+  background-color: #e71212;
+  color: white;
+  text-align: center;
+  padding: 30px;
+  margin-bottom: 30px;
+}
+
+
+.error {
+  color: #FF0000;
+  font-size: 12px;
+  margin-top: 2px;
+}
